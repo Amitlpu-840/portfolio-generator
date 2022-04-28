@@ -42,6 +42,9 @@ function generateCV() {
     let des = document.getElementById("Description").value;
     document.getElementById("description1").innerHTML = des;
 
+    let exp = document.getElementById("experience").value;
+    document.getElementById("experience1").innerHTML = exp;
+
     let file = document.getElementById("imgField").files[0];
     console.log(file);
     let reader = new FileReader();
